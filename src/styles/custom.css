@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to left, #1E90FF, #87CEFA);
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  button {
+    border-radius: 20px;
+  }
+  
