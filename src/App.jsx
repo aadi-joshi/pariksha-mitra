@@ -1,4 +1,4 @@
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Dashboard from "./components/Dashboard";
@@ -12,7 +12,7 @@ function App() {
         <ProtectedRoute>
           <Dashboard />
         </ProtectedRoute>
-        } />
+      } />
     </Routes>
   );
 }
