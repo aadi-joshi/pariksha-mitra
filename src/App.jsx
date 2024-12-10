@@ -1,15 +1,19 @@
-import { Routes as R, Route as RoutePath } from "react-router-dom";
-import L from "./components/Login";
-import Rg from "./components/Register";
-import D from "./components/Dashboard";
-
+import {Routes, Route} from "react-router-dom";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Dashboard from "./components/Dashboard";
+import ProtectedRoute from "./components/ProtectedRoute";
 function App() {
   return (
-    <R>
-      <RoutePath path="/" element={<L />} />
-      <RoutePath path="/register" element={<Rg />} />
-      <RoutePath path="/dashboard" element={<D />} />
-    </R>
+    <Routes>
+      <Route path="/" element={<Register />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/dashboard" element={
+        <ProtectedRoute>
+          <Dashboard />
+        </ProtectedRoute>
+        } />
+    </Routes>
   );
 }
 

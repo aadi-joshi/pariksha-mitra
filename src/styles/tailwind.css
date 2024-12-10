@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+  font-family: 'Inter', sans-serif;
+}
+
+.card
+{
+  @apply bg-white shadow-xl rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-2xl;
+}
+
+.card-header
+{
+  @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-center rounded-t-lg py-3;
+}
