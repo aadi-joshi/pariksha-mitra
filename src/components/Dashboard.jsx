@@ -26,7 +26,7 @@ function Dashboard() {
         <div className="relative"><button onClick={() => setDropdownOpen(!dropdownOpen)}
           className="bg-gray-800 p-2 rounded-full focus:outline-none hover:bg-gray-700 animate-slideUp"
         >
-          <img src="../src/assets/icons/profile.png" width="25"></img>
+          <img src="/icons/profile.png" width="25"></img>
         </button>
           {dropdownOpen && (
             <div className="absolute right-0 mt-2 bg-gray-800 shadow-lg rounded-lg">

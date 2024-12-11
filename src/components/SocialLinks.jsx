@@ -11,24 +11,24 @@ const SocialLinks = () => (
                 target="_blank" // to open the link in a diff tab
                 rel="noopener noreferrer" // noopener to disallow dom manipulation, norefferer to keep our page anonymous
                 className="p-3 bg-purple-800 rounded-full hover:bg-pink-600 transition-all"
-            ><img src="../src/assets/icons/instagram.png" width="25"></img>
+            ><img src="/icons/instagram.png" width="25"></img>
             </a>
             <a
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-purple-800 rounded-full hover:bg-pink-600 transition-all"
-            ><img src="../src/assets/icons/youtube.png" width="25"></img>
+            ><img src="/icons/youtube.png" width="25"></img>
             </a>
             <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-purple-800 rounded-full hover:bg-pink-600 transition-all"
-            ><img src="../src/assets/icons/linkedin.png" width="25"></img>
+            ><img src="/icons/linkedin.png" width="25"></img>
             </a>
             <a href="mailto:toaadijoshi@gmail.com" className="p-3 bg-purple-800 rounded-full hover:bg-pink-600 transition-all">
-                <img src="../src/assets/icons/mail.png" width="25"></img></a>
+                <img src="/icons/mail.png" width="25"></img></a>
         </div></div>
 
 );
