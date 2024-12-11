@@ -20,11 +20,11 @@ function Dashboard() {
             Pariksha Mitra
           </h1>
           <button className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-lg hover:scale-105 transition-transform animate-slideUp">
-            Take New Test
+            Take New Test {/* doesnt do anything yet*/}
           </button>
         </div>
         <div className="relative"><button onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="bg-gray-800 p-2 rounded-full focus:outline-none hover:bg-gray-700"
+          className="bg-gray-800 p-2 rounded-full focus:outline-none hover:bg-gray-700 animate-slideUp"
         >
           <img src="../src/assets/icons/profile.png" width="25"></img>
         </button>

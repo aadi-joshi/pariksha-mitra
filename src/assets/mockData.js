@@ -4,7 +4,7 @@ export const mockData = [
     { title: "Practice Tests", value: 34, description: "Completed tests" },
     { title: "Performance Score", value: "85%", description: "Average score" },
     { title: "Teacher Feedback", value: 7, description: "Feedback received" },
-    { title: "Strongest Subject", value: "Mathematics", description: "17 tests cleared with 90+ marks" },
+    { title: "Strongest Subject", value: "Science", description: "17 tests cleared with 90+ marks" },
     { title: "Weakest Subject", value: "English", description: "6 tests cleared with below 60 marks" },
 ];
 
